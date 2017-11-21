@@ -1,0 +1,30 @@
+.fl {float:left !important;}
+.fr {float:right !important;}
+.none {float:none !important;}
+
+.block {display:block !important;}
+.inline {display:inline !important;}
+.lnblokc {display:inline-block !important;}
+
+.blind {display:none !important;}
+
+.noBg {background:none !important;}
+.nborder {border:none !important;}
+.nlm {margin-left:0 !important;}
+.nrm {margin-right:0 !important;}
+.ntm {margin-top:0 !important;}
+.nbm {margin-bottom:0 !important;}
+
+.nlp {padding-left:0 !important;}
+.nrp {padding-right:0 !important;}
+.ntp {padding-top:0 !important;}
+.nbp {padding-bottom:0 !important;}
+
+.abs {position:absolute !important;}
+.rel {position:relative !important;}
+.fix {position:fixed !important;}
+
+ul.list > li {float:left !important;}
+
+.clearFix:after {content:""; display:block; font-size:0; line-height:0; width:0; height:0; clear:both;}
+

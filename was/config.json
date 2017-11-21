@@ -1,0 +1,50 @@
+{
+    "port" : 8000,
+
+    "iot": {
+        "org": "",
+        "deviceType": "FINTECH",
+        "deviceId": "HOME",
+        "eventType": "sonic",
+        "authKey": "",
+        "authToken": ""
+    },
+
+    "agent": {
+        "queryPeer": {
+            "userId": "User1",
+            "channelId": "kisachannel",
+            "chaincodeId": "kisaCC",
+            "peerUrl": "grpc://localhost:7051"
+        },
+    
+        "invokePeer": {
+            "userId": "User1",
+            "channelId": "kisachannel",
+            "chaincodeId": "kisaCC",
+            "peerUrl": "grpc://localhost:7051",
+            "eventUrl": "grpc://localhost:7053",
+            "ordererUrl": "grpc://localhost:7050",
+            "timeout": 120000
+        }
+    },
+
+    "was": {
+        "queryPeer": {
+            "userId": "User2",
+            "channelId": "kisachannel",
+            "chaincodeId": "kisaCC",
+            "peerUrl": "grpc://localhost:8051"
+        },
+    
+        "invokePeer": {
+            "userId": "User2",
+            "channelId": "kisachannel",
+            "chaincodeId": "kisaCC",
+            "peerUrl": "grpc://localhost:8051",
+            "eventUrl": "grpc://localhost:8053",
+            "ordererUrl": "grpc://localhost:7050",
+            "timeout": 120000
+        }
+    }
+}

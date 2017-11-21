@@ -1,0 +1,151 @@
+
+.wrap{ display:block; margin:0 auto 100px; width:1100px;  bor der:1px solid #ff0000;}
+
+h1 { font-weight:600; font-size: 2.8rem; margin:15px 0 15px 0;}
+h1 img {vertical-align:middle; margin-right:10px;}
+h2:before {content:""; width:4px; height:25px; background:#d80c18;
+	display:inline-block; margin:0 10px 0 0;position:relative; t op:px;}
+
+.header {padding-bottom:20px; border-bottom:1px solid #e5e5e5;;}
+.nodeBox {display:inline-block;width:425px;background:#eeeeee;   border-radius: 0.1rem; margin-right:10px;}
+.nodeBox.hanaBox {border:1px solid #b3d465;}
+.nodeBox.taisBox {border:1px solid #f2c920;}
+
+.nodeBox dt {height:40px;}
+.nodeBox dt img {vertical-align:middle; margin:5px 5px 5px 10px;}
+.nodeBox dt span {}
+.nodeBox dt.nodeHana {background:#b3d465;}
+.nodeBox dt.nodeTais {background:#f2c920;}
+.nodeBox dd {text-align:center;padding:12px 0 0 0;}
+
+.nodeBox dd {display:block; margin:0 auto;}
+.nodeBox li {float:left;}
+
+.numBox {display:block; width:190px; margin:5px; padding:5px;border:1px solid #aaaaaa;background:#ffffff; }
+.numBox img {float:left;}
+.numBox span {float:right;}
+
+.numBox span.numb {padding:10px 0 5px 0;vertical-align:middle;font: bold 2em Arial,sans-serif;}
+.numBox span.fontS{ width:120px; text-align:right;font:0.9em Arial,sans-serif;}
+
+.vNav {display:block; float:left; width:150px;margin-top:20px;  }
+.vNav a {display:block; font-weight:500; cursor:pointer;   }
+
+.vNav ul li {line-height:180%;margin-left:0px;}
+/*.vNav > ul > li:first-child {border-top:1px solid #e5e5e5; width:180px;}*/
+.vNav > ul > li.lnbMenu1 > a {padding:10px 0 0 10px; width:170px; height:29px; background:; border-bottom:1px solid #e5e5e5;}
+.vNav > ul > li.lnbMenu1 > a:hover {background:#cccccc; color:#fff; }
+.vNav > ul > li.on > a{background:#cccccc; color:#fff; }
+.lnbMenu2 > li {text-align:left; width:180px;background:#f8f8f8}
+.lnbMenu2 > li > a{display:block;height:30px;width:160px;padding-left:20px; line-height:30px;border-bottom:1px solid #e5e5e5;font-weight:500; font-size:13px;}
+.lnbMenu2 > li > a:hover {background:#ebebeb ; }
+.lnbMenu2 > li.on > a{background:#ebebeb;font-weight:600; color:#111;}
+.lnbMenu2 > li > a:hover{color:#000; font-weight:600; color:#111; }
+
+.location {display:inline-block;width:900px; text-align:right;margin:10px 0 15px 0; overflow:hidden;}
+.location img{vertical-align:bottom; margin-right:10px;width:20px;height:20px;}
+.location span {font:700 1.5em Arial,sans-serif;}
+
+.contant {display:block; float:right; width:900px;}
+
+.sec01 {float:left; overflow:hidden;}
+
+h2 { font-weight:600; font-size: 1.8rem; margin:40px 0 20px 0;}
+h2 img {vertical-align:middle; margin-right:10px;}
+
+caption {display:none;}
+.contant table {border-left:1px solid #eeeeee;}
+.contant table th {height:30px;font-weight:bold;vertical-align:middle;background:#eeeeee ;}
+.contant table td {height:30px;text-align:center; vertical-align:middle;}
+.contant table thead {border:1px solid #e5e5e5; border-width:1px 0 0 1px;} 
+.contant table thead th {border:1px solid #e5e5e5; border-width:0 1px 1px 0 ;}
+.contant table tbody th {;border:1px solid #e5e5e5; border-width:1px 1px 1px 1px ;}
+.contant table tbody td {border:1px solid #e5e5e5; border-width:0 1px 1px 0 ;}
+
+
+
+.set02 {display:inline-block; float:right; wi dth:250px ;background:#FFF url() 0 0 no-repeat;overflow:hidden; margin:0 0 0 30px; }
+.set04 {display:inline-block; width:900px;}
+.blockAlign li {float:left; text-align:center; vertical-align:middle;}
+
+.numBlock dl {display:block;  mar gin:0px 0 30px 0;
+	background:#ebebeb ;
+	border-radius: 0.3rem;
+	width:250px ; height:100px;
+}
+
+.numBlock dt {display:block; height:40px;vertical-align:middle;text-align:left;}
+.numBlock dd {display:block; height:40px; text-align:center;vertical-align:bottom;}
+.numBlock dd span { text-decoration:underline; font-weight:600;font-size:2em; padding:10px 0 10px 0;}
+.hanaTo dt img {padding:8px;vertical-align:middle;}
+.taisTo dt img {padding:8px;vertical-align:middle;}
+.hanaTo dd span {color:#0069d9;}
+.taisTo dd span {color:#d80c18;}
+
+
+.icoPos {display:block; wid th:250px;h eight:40px;text-align:center; vertical-align:middle;}
+.icoPos img {margin:5px; vertical-align:middle;}
+
+
+
+.icoPos {display:block; wid th:250px;h eight:40px;text-align:center; vertical-align:middle;}
+.icoPos img {margin:5px; vertical-align:middle;}
+.icoPosH img {margin:30px 5px; vertical-align:middle;}
+
+.sec03 {display:inline-block; width:900px; position:relative;}
+.radioGroup {display:block; width:900px;overflow:hidden;text-align:right;}
+.radioGroup input {margin-bottom:5px; }
+
+.blockBox {display:inline-block;}
+.blockScrollable {max-height: 248px;overflow-y: scroll;}
+/* 버튼공통 */
+.btnGroup {display:inline-block; vertical-align:bottom;}
+
+
+.btn {
+  display: inline-block;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border: 1px solid transparent;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.25;
+  border-radius: 0.25rem;
+  transition: all 0.15s ease-in-out;
+}
+
+.btn-primary {  color:#ffffff !important;  background:#007bff;  border-color:#007bff;}
+.btn-primary:hover {  color:#ffffff;  background:#0069d9;  border-color:#0062cc;}
+.btn-default {  color:#333333;  background:#ffffff;  border-color: #bbbbbb;		}
+.btn-default:hover {  color:#333;  background:#ececec;  border-color: #ececec;}
+
+/* 페이지넘버 */
+
+.pagination { display:inline-block; background:#fff; width:100%;text-align:center; margin:20px 0 20px 0; }
+.page {display: inline-block; padding: 5px 9px; margin-right: 4px; /* border-radius: 3px; */ border: solid 1px #ccc; background: #fff; box-shadow: inset 0px 1px 0px rgba(255,255,255, .8), 0px 0px 0px rgba(0,0,0, .1); font-size: .875em; font-weight: bold; text-decoration: none; color: #717171; text-shadow: 0px 1px 0px rgba(255,255,255, 1); }
+.page:hover, .page.gradient:hover { background: #fff; background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FEFEFE), to(#e0e0e0)); background: -moz-linear-gradient(0% 0% 270deg,#FEFEFE, #f0f0f0); }
+.page.active {border: none; background: #616161; box-shadow: inset 0px 0px 8px rgba(0,0,0, .5), 0px 1px 0px rgba(255,255,255, .8); color: #f0f0f0; text-shadow: 0px 0px 3px rgba(0,0,0, .5); }
+
+#loadingView {
+ width: 100%;  
+ height: 100%;  
+ top: 0px;
+ left: 0px;
+ position: fixed;  
+ display: block;  
+ opacity: 0.7;  
+ background-color: #fff;  
+ z-index: 99;  
+ text-align: center; } 
+  
+#loading-image {  
+ position: absolute;  
+ top: 50%;  
+ left: 50%; 
+ z-index: 100; }

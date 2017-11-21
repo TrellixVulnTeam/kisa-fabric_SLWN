@@ -1,0 +1,37 @@
+{
+    "name": "kisa-iot-blockchain",
+    "version": "1.0.0",
+    "description": "KISA Project",
+    "main": "was.js",
+    "scripts": {
+        "start": "node was.js"
+    },
+    "dependencies": {
+        "fabric-ca-client": "^1.0.0",
+        "fabric-client": "^1.0.0",
+        "lodash": "4.17.x",
+        "pad": "1.1.x",
+        "hashmap": "2.3.x",
+        "path": "*",
+        "grpc": "*",
+        "date-utils": "*",
+        "xmlreader": "*",
+        "body-parser": "~1.18.2",
+        "cookie-parser": "~1.4.3",
+        "debug": "~2.6.9",
+        "express": "~4.15.5",
+        "jade": "~1.11.0",
+        "morgan": "~1.9.0",
+        "serve-favicon": "~2.4.5",
+        "websocket": "*",
+        "ibmiotf": "*",
+        "sqlite3": "*"
+    },
+    "author": "CHOI EUI SHIN",
+    "license": "Apache-2.0",
+    "keywords": [
+        "Hyperledger",
+        "Fabric",
+        "KISA"
+    ]
+}

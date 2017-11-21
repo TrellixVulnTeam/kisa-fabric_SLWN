@@ -1,0 +1,284 @@
+# 이 viminfo 파일은 빔이 만든 것입니다 Vim 7.4.
+# 조심만 한다면 고칠 수도 있습니다!
+
+# 이 파일이 저장되었을 때의 'encoding'의 값
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Last Search Pattern:
+~MSle0~/\<bin\>
+
+# 마지막으로 바꾼 문자열:
+$
+
+# 명령 줄 히스토리 (새것부터 오래된 것 순):
+:q!
+:wq
+
+# 찾을 문자열 히스토리 (새것부터 오래된 것 순):
+? @$
+? \<bin\>
+
+# 표현 히스토리 (새것부터 오래된 것 순):
+
+# 입력 줄 히스토리 (새것부터 오래된 것 순):
+
+# 입력 줄 히스토리 (새것부터 오래된 것 순):
+
+# 레지스터:
+"0	CHAR	0
+	0
+""1	LINE	0
+	# wait for Hyperledger Fabric to start
+	# incase of errors when running later commands, issue export FABRIC_START_TIMEOUT=<larger number>
+"-	CHAR	0
+	0
+
+# 파일 마크:
+'0  7  14  ~/kisa-bc/chaincode-dev/chain-02.sh
+'1  6  0  ~/kisa-bc/chaincode-dev/fbnet-01.sh
+'2  1  0  ~/kisa-bc/chaincode-dev/cli-03.sh
+'3  1  0  ~/kisa-bc/chaincode-dev/clean.sh
+'4  172  0  ~/kisa-bc/kisa-network/docker-compose.yml
+'5  1  0  ~/kisa-bc/kisa-network/docker-compose.yml
+'6  41  0  ~/kisa-bc/kisa-network/generate.sh
+'7  9  0  ~/kisa-bc/kisa-network/delchain.sh
+'8  31  48  ~/kisa-bc/kisa-network/chainset.sh
+'9  130  0  ~/kisa-bc/kisa-network/configtx.yaml
+
+# 점프목록 (새것이 먼저):
+-'  7  14  ~/kisa-bc/chaincode-dev/chain-02.sh
+-'  1  0  ~/kisa-bc/chaincode-dev/chain-02.sh
+-'  6  0  ~/kisa-bc/chaincode-dev/fbnet-01.sh
+-'  1  0  ~/kisa-bc/chaincode-dev/fbnet-01.sh
+-'  1  0  ~/kisa-bc/chaincode-dev/cli-03.sh
+-'  1  0  ~/kisa-bc/chaincode-dev/clean.sh
+-'  172  0  ~/kisa-bc/kisa-network/docker-compose.yml
+-'  1  0  ~/kisa-bc/kisa-network/docker-compose.yml
+-'  41  0  ~/kisa-bc/kisa-network/generate.sh
+-'  1  0  ~/kisa-bc/kisa-network/generate.sh
+-'  9  0  ~/kisa-bc/kisa-network/delchain.sh
+-'  1  0  ~/kisa-bc/kisa-network/delchain.sh
+-'  31  48  ~/kisa-bc/kisa-network/chainset.sh
+-'  1  0  ~/kisa-bc/kisa-network/chainset.sh
+-'  130  0  ~/kisa-bc/kisa-network/configtx.yaml
+-'  1  0  ~/kisa-bc/kisa-network/configtx.yaml
+-'  72  0  ~/kisa-bc/kisa-network/crypto-config.yaml
+-'  1  0  ~/kisa-bc/kisa-network/crypto-config.yaml
+-'  19  0  ~/kisa-bc/kisa-network/teardown.sh
+-'  1  0  ~/kisa-bc/kisa-network/teardown.sh
+-'  13  0  ~/kisa-bc/kisa-network/stop.sh
+-'  1  0  ~/kisa-bc/kisa-network/stop.sh
+-'  58  46  ~/kisa-bc/kisa-network/start.sh
+-'  31  0  ~/kisa-bc/kisa-network/start.sh
+-'  1  0  ~/kisa-bc/kisa-network/start.sh
+-'  22  28  ~/kisa-bc/kisa-network/generate.sh
+-'  13  1  ~/kisa-bc/kisa-network/generate.sh
+-'  9  0  ~/kisa-bc/kisa-network/generate.sh
+-'  2  0  ~/kisa-bc/kisa-network/crypto-config.yaml
+-'  24  0  ~/kisa-bc/kisa-network/generate.sh
+-'  32  0  ~/kisa-bc/kisa-network/generate.sh
+-'  11  0  ~/kisa-bc/kisa-network/start.sh
+-'  14  0  ~/kisa-bc/kisa-network/generate.sh
+-'  9  0  ~/kisa-bc/kisa-network/cli.sh
+-'  1  0  ~/kisa-bc/kisa-network/cli.sh
+-'  8  0  ~/kisa-bc/kisa-network/crypto-config
+-'  10  0  ~/kisa-bc/kisa-network/generate.sh
+-'  20  1  ~/kisa-bc/kisa-network/generate.sh
+-'  23  0  ~/kisa-bc/kisa-network/generate.sh
+-'  17  0  ~/kisa-bc/kisa-network/generate.sh
+-'  18  0  ~/kisa-bc/kisa-network/generate.sh
+-'  19  0  ~/kisa-bc/kisa-network/generate.sh
+-'  16  0  ~/kisa-bc/kisa-network/generate.sh
+-'  33  13  ~/kisa-bc/kisa-network/docker-compose.yml
+-'  90  14  ~/kisa-bc/kisa-network/docker-compose.yml
+-'  39  0  ~/kisa-bc/kisa-network/start.sh
+-'  4  0  ~/kisa-bc/kisa-network/config/Org1MSPanchors.tx
+-'  1  0  ~/kisa-bc/kisa-network/config/Org1MSPanchors.tx
+-'  1  0  ~/kisa-bc/kisa-network/config/genesis.block
+-'  1  0  ~/kisa-bc/kisa-network/config/channel.tx
+-'  27  80  ~/.profile
+-'  1  0  ~/.profile
+-'  4  0  ~/kisa-bc/kisa-network/docker-compose.yml
+-'  66  0  ~/kisa-bc/kisa-network/configtx.yaml
+-'  26  1  ~/kisa-bc/kisa-network/generate.sh
+-'  83  14  ~/kisa-bc/chaincode-dev/docker-compose-simple.yaml
+-'  1  0  ~/kisa-bc/chaincode-dev/docker-compose-simple.yaml
+-'  1  0  ~/kisa-bc/chaincode/kisa.go
+-'  37  10  ~/was/config.json
+-'  1  0  ~/was/config.json
+-'  6  19  ~/kisa-bc/chaincode-dev/chain-02.sh
+-'  45  0  ~/kisa-bc/kisa-network/start.sh
+-'  13  18  ~/kisa-bc/was/config.json
+-'  1  0  ~/kisa-bc/was/config.json
+-'  25  62  ~/.profile
+-'  27  9  /etc/dhcp/dhclient.conf
+-'  1  0  /etc/dhcp/dhclient.conf
+-'  14  10  /etc/network/interfaces
+-'  1  0  /etc/network/interfaces
+-'  17  0  /etc/network/interfaces
+-'  14  10  /etc/network/interfaces
+-'  1  0  /etc/network/interfaces
+-'  17  0  /etc/network/interfaces
+-'  27  9  /etc/dhcp/dhclient.conf
+-'  1  0  /etc/dhcp/dhclient.conf
+-'  14  10  /etc/network/interfaces
+-'  1  0  /etc/network/interfaces
+-'  17  0  /etc/network/interfaces
+-'  14  10  /etc/network/interfaces
+-'  1  0  /etc/network/interfaces
+-'  17  0  /etc/network/interfaces
+-'  27  9  /etc/dhcp/dhclient.conf
+-'  1  0  /etc/dhcp/dhclient.conf
+-'  14  10  /etc/network/interfaces
+-'  1  0  /etc/network/interfaces
+-'  17  0  /etc/network/interfaces
+-'  14  10  /etc/network/interfaces
+-'  1  0  /etc/network/interfaces
+-'  17  0  /etc/network/interfaces
+-'  27  9  /etc/dhcp/dhclient.conf
+-'  1  0  /etc/dhcp/dhclient.conf
+-'  14  10  /etc/network/interfaces
+-'  1  0  /etc/network/interfaces
+-'  17  0  /etc/network/interfaces
+-'  14  10  /etc/network/interfaces
+-'  1  0  /etc/network/interfaces
+-'  17  0  /etc/network/interfaces
+-'  6  0  ~/kisa-bc/chaincode-dev/fbnet-01.sh
+
+# 파일내의 마크 히스토리 (새것부터 오래된 순):
+
+> ~/kisa-bc/chaincode-dev/chain-02.sh
+	"	7	14
+
+> ~/kisa-bc/chaincode-dev/fbnet-01.sh
+	"	6	0
+
+> ~/kisa-bc/chaincode-dev/cli-03.sh
+	"	1	0
+
+> ~/kisa-bc/chaincode-dev/clean.sh
+	"	1	0
+
+> ~/kisa-bc/kisa-network/docker-compose.yml
+	"	172	0
+
+> ~/kisa-bc/kisa-network/generate.sh
+	"	41	0
+	^	13	2
+	.	41	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	16	0
+	+	23	0
+	+	24	0
+	+	25	0
+	+	26	0
+	+	27	0
+	+	30	0
+	+	31	0
+	+	32	0
+	+	33	0
+	+	34	0
+	+	37	0
+	+	38	0
+	+	39	0
+	+	40	0
+	+	41	0
+	+	23	0
+	+	24	0
+	+	25	0
+	+	26	0
+	+	30	0
+	+	31	0
+	+	32	0
+	+	33	0
+	+	37	0
+	+	38	0
+	+	39	0
+	+	40	0
+	+	27	0
+	+	34	0
+	+	33	0
+	+	34	0
+	+	41	0
+
+> ~/kisa-bc/kisa-network/delchain.sh
+	"	9	0
+
+> ~/kisa-bc/kisa-network/chainset.sh
+	"	31	48
+
+> ~/kisa-bc/kisa-network/configtx.yaml
+	"	130	0
+
+> ~/kisa-bc/kisa-network/crypto-config.yaml
+	"	72	0
+
+> ~/kisa-bc/kisa-network/teardown.sh
+	"	19	0
+
+> ~/kisa-bc/kisa-network/stop.sh
+	"	13	0
+
+> ~/kisa-bc/kisa-network/start.sh
+	"	58	46
+	.	22	0
+	+	22	0
+
+> ~/kisa-bc/kisa-network/cli.sh
+	"	9	0
+
+> ~/kisa-bc/kisa-network/config/Org1MSPanchors.tx
+	"	4	0
+
+> ~/kisa-bc/kisa-network/config/genesis.block
+	"	1	0
+
+> ~/kisa-bc/kisa-network/config/channel.tx
+	"	1	0
+
+> ~/.profile
+	"	27	80
+	^	27	81
+	.	27	80
+	+	20	25
+	+	25	62
+	+	24	0
+	+	24	0
+	+	23	0
+	+	28	0
+	+	27	80
+
+> ~/kisa-bc/chaincode-dev/docker-compose-simple.yaml
+	"	83	14
+	^	83	15
+	.	83	14
+	+	83	14
+
+> ~/kisa-bc/chaincode/kisa.go
+	"	1	0
+
+> ~/was/config.json
+	"	37	10
+
+> ~/kisa-bc/was/config.json
+	"	13	18
+
+> /etc/dhcp/dhclient.conf
+	"	27	9
+	^	27	9
+	.	27	9
+	+	27	9
+
+> /etc/network/interfaces
+	"	14	10
+	^	15	22
+	.	14	10
+	+	16	3
+	+	15	21
+	+	14	10
